@@ -22,10 +22,12 @@ import urllib.parse
 
 #pytz.all_timezones
 
+
 def get_now():
     tz_NZ = pytz.timezone('Pacific/Auckland') 
     datetime_NZ = datetime.now(tz_NZ)
     return datetime_NZ.strftime("%Y-%m-%d %H:%M")
+
 
 def start_date(daysBeforeNow=7):
     tz_NZ = pytz.timezone('Pacific/Auckland') 
@@ -33,6 +35,7 @@ def start_date(daysBeforeNow=7):
     day_delta = dt.timedelta(days=daysBeforeNow)
     from_date = datetime_NZ - day_delta
     return from_date.strftime("%Y-%m-%d %H:%M")
+
 
 def get_data(site):
     ### Parameters
@@ -45,6 +48,7 @@ def get_data(site):
     # columns=['Site', 'Measurement', 'Parameter', 'DateTime', 'Value'])
     return df
 
+
 def get_all_stage_data():
     base_url = 'http://tsdata.horizons.govt.nz/'
     hts = 'boo.hts'
@@ -54,70 +58,44 @@ def get_all_stage_data():
     df = ws.get_datatable(base_url, hts, collection, from_date=from_date, to_date=to_date)
     return df
 
-#print("From=",start_date(),"&To=",get_now())
 
-# Pulling water level data from Hilltop Server
-data = get_all_stage_data()
-data["Time"] = pd.to_datetime(data["Time"],infer_datetime_format=True)
-data["Value"] = pd.to_numeric(data["M1"])/1000.0
-data = data.query("SiteName == 'Makakahi at Hamua'")
-
-# Attribute icons
-# <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-# <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-# Create an instance of the dash class
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-# --- This line added for deployment to heroku
-# server = app.server
-# ---
-
-app.layout = dbc.Container([
-    dbc.Row([
-        dbc.Col([
-            dbc.Card([
-                dbc.CardImg(
-                    src = '/assets/png/001-A.png',
-                    top = True,
-                    style = {'width':'3rem'}
-                ),
-                dbc.CardBody([
-                    dbc.Row([
-                        dbc.Col([
-                            html.P(['CHANGE (1D)'])
-                        ]),
-                        dbc.Col([
-                            dcc.Graph(id='indicator-graph', figure={},
-                                config={'displayModeBar':False}
-                            )
-                        ])
-                    ]),
-                    dbc.Row([
-                        dbc.Col([
-                            dcc.Graph(id='daily-line', figure={},
-                                config={'displayModeBar':False}
-                            )
-                        ])
-                    ])
+def build_card(id,sites):
+    site = sites[id]
+    river_card = dbc.Card([
+        dbc.CardHeader(
+                        id='card-'+str(id),
+                        children=site
+                    ),
+        dbc.CardBody([
+            dbc.Row([
+                dbc.Col([
+                    html.P(['(Last 24 hrs)'])
+                ]),
+                dbc.Col([
+                    dcc.Graph(id='indicator-graph-'+str(id), figure={},
+                        config={'displayModeBar':False}
+                    )
                 ])
-            ],
-            style = {"width":"24rem"},
-            className = "mt-3")
-        ],width=6)
-    ],justify='center'),
+            ]),
+            dbc.Row([
+                dbc.Col([
+                    dcc.Graph(id='daily-line-'+str(id), figure={},
+                        config={'displayModeBar':False}
+                    )
+                ])
+            ])
+        ],
+        #style = {"width":"24rem"},
+        className = "mt-3")
+    ])
+    return river_card
 
-    dcc.Interval(id='update', n_intervals=0, interval=1000*300)
-])
 
-
-@app.callback(
-    Output('indicator-graph','figure'),
-    Input('update', 'n_intervals')
-)
-
-def update_graph(timer):
-    day_start = data['Value'].iloc[0] # first element 
-    day_end = data['Value'].iloc[-1] # last element 
+def build_card_indicator(id, sites, data):
+    site = sites[id]
+    sitedata = data.query("SiteName == '" + site + "'")
+    day_start = sitedata['Value'].iloc[0] # first element 
+    day_end = sitedata['Value'].iloc[-1] # last element 
     
     fig = go.Figure(go.Indicator(
         mode = 'delta',
@@ -128,21 +106,17 @@ def update_graph(timer):
     fig.update_layout(height=30,width=70)
 
     if day_end >= day_start:
-        fig.update_traces(delta_increasing_color="green")
-    elif day_end < day_start:
         fig.update_traces(delta_increasing_color="red")
-        
+    elif day_end < day_start:
+        fig.update_traces(delta_increasing_color="green")
     return fig
 
-@app.callback(
-    Output('daily-line','figure'),
-    Input('update', 'n_intervals')
-)
 
-# Line plot --------------------------------------------
-def update_graph(timer):
-    fig = px.line(data, x='Time', y='Value',
-        range_y = [data['Value'].min(), data['Value'].max()],
+def build_card_graph(id, sites, data):
+    site = sites[id]
+    sitedata = data.query("SiteName == '" + site + "'")
+    fig = px.line(sitedata, x='Time', y='Value',
+        range_y = [sitedata['Value'].min(), sitedata['Value'].max()],
         height=120
         ).update_layout(margin=dict(t=0,r=0,l=0,b=20),
         paper_bgcolor='rgba(0,0,0,0)',
@@ -159,18 +133,158 @@ def update_graph(timer):
         )
     )
 
-    day_start = data['Value'].iloc[0] # first element 
-    day_end = data['Value'].iloc[-1] # last element 
+    day_start = sitedata['Value'].iloc[0] # first element 
+    day_end = sitedata['Value'].iloc[-1] # last element 
     
     if day_end >= day_start:
-        fig.update_traces(fill='tozeroy',line={'color':'green'})
-    elif day_end < day_start:
         fig.update_traces(fill='tozeroy',line={'color':'red'})
+    elif day_end < day_start:
+        fig.update_traces(fill='tozeroy',line={'color':'green'})
 
     return fig
 
+# Pulling water level data from Hilltop Server
+data = get_all_stage_data()
+data["Time"] = pd.to_datetime(data["Time"],infer_datetime_format=True)
+data["Value"] = pd.to_numeric(data["M1"])/1000.0
+#data = data.query("SiteName == 'Makakahi at Hamua'")
+sites = list(np.sort(data.SiteName.unique()))
+identifiers = [0,1,3,4,6,11,27,25,24]
+
+# Attribute icons
+# <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+# <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+# Create an instance of the dash class
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+# --- This line added for deployment to heroku
+# server = app.server
+# ---
 
 
+
+row_1 = dbc.Row(
+    [
+        dbc.Col([
+            build_card(0,sites)            
+        ]),
+        dbc.Col([
+            build_card(1,sites)
+        ]),
+        dbc.Col([
+             build_card(3,sites)
+       ]),
+    ],
+    className="mb-4",
+)
+
+row_2 = dbc.Row(
+    [
+        dbc.Col([
+            build_card(4,sites)            
+        ]),
+        dbc.Col([
+            build_card(6,sites)
+        ]),
+        dbc.Col([
+             build_card(11,sites)
+       ]),
+    ],
+    className="mb-4",
+)
+
+row_3 = dbc.Row(
+    [
+        dbc.Col([
+            build_card(27,sites)            
+        ]),
+        dbc.Col([
+            build_card(25,sites)
+        ]),
+        dbc.Col([
+             build_card(24,sites)
+       ]),
+    ],
+    className="mb-4",
+)
+
+
+app.layout = dbc.Container([
+    html.Div([row_1, row_2, row_3]),
+
+    #dcc.Interval(id='update', n_intervals=0, interval=1000*300)
+])
+
+
+@app.callback(
+ [
+    Output('indicator-graph-0','figure'),
+    Output('indicator-graph-1','figure'),
+    Output('indicator-graph-3','figure'),
+    Output('indicator-graph-4','figure'),
+    Output('indicator-graph-6','figure'),
+    Output('indicator-graph-11','figure'),
+    Output('indicator-graph-27','figure'),
+    Output('indicator-graph-25','figure'),
+    Output('indicator-graph-24','figure'),
+    ],
+    Input('update', 'n_intervals')
+)
+
+def update_graph(timer):
+    # perform some logic here
+
+
+    output_1 = build_card_indicator(identifiers[0], sites, data)
+    output_2 = build_card_indicator(identifiers[1], sites, data)
+    output_3 = build_card_indicator(identifiers[2], sites, data)
+
+    output_4 = build_card_indicator(identifiers[3], sites, data)
+    output_5 = build_card_indicator(identifiers[4], sites, data)
+    output_6 = build_card_indicator(identifiers[5], sites, data)
+
+    output_7 = build_card_indicator(identifiers[6], sites, data)
+    output_8 = build_card_indicator(identifiers[7], sites, data)
+    output_9 = build_card_indicator(identifiers[8], sites, data)
+    
+ 
+    return output_1, output_2, output_3, output_4, output_5, output_6, output_7, output_8, output_9   
+    # these variable names can be whatever you want
+
+
+@app.callback(
+    [
+    Output('daily-line-0','figure'),
+    Output('daily-line-1','figure'),
+    Output('daily-line-3','figure'),
+    Output('daily-line-4','figure'),
+    Output('daily-line-6','figure'),
+    Output('daily-line-11','figure'),
+    Output('daily-line-27','figure'),
+    Output('daily-line-25','figure'),
+    Output('daily-line-24','figure'),
+    ],
+    Input('update', 'n_intervals')
+)
+
+# Line plot --------------------------------------------
+def update_graph(timer):
+    
+    output_1 = build_card_graph(identifiers[0],sites, data)
+    output_2 = build_card_graph(identifiers[1],sites, data)
+    output_3 = build_card_graph(identifiers[2],sites, data)
+
+    output_4 = build_card_graph(identifiers[3],sites, data)
+    output_5 = build_card_graph(identifiers[4],sites, data)
+    output_6 = build_card_graph(identifiers[5],sites, data)
+
+    output_7 = build_card_graph(identifiers[6],sites, data)
+    output_8 = build_card_graph(identifiers[7],sites, data)
+    output_9 = build_card_graph(identifiers[8],sites, data)
+    
+ 
+    return output_1, output_2, output_3, output_4, output_5, output_6, output_7, output_8, output_9 
+    
 
 if __name__ == "__main__":
     app.run_server(debug=True)
