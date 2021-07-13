@@ -69,7 +69,7 @@ def build_card(id,sites):
         dbc.CardBody([
             dbc.Row([
                 dbc.Col([
-                    html.P(['(Last 24 hrs)'])
+                    html.P(['Height change (m) last 24 hrs'])
                 ]),
                 dbc.Col([
                     dcc.Graph(id='indicator-graph-'+str(id), figure={},
@@ -98,17 +98,18 @@ def build_card_indicator(id, sites, data):
     day_end = sitedata['Value'].iloc[-1] # last element 
     
     fig = go.Figure(go.Indicator(
-        mode = 'delta',
+        mode =  'delta',
         value = day_end,
-        delta = {'reference': day_start, 'relative': True, 'valueformat':'.2%'}
+        delta = {'reference': day_start, 'relative': False, 'valueformat':'0.3f'}
+       
     ))
-    fig.update_traces(delta_font={'size':12})
+    fig.update_traces(delta_font={'size':14})
     fig.update_layout(height=30,width=70)
 
     if day_end >= day_start:
         fig.update_traces(delta_increasing_color="red")
     elif day_end < day_start:
-        fig.update_traces(delta_increasing_color="green")
+        fig.update_traces(delta_decreasing_color="green")
     return fig
 
 
@@ -161,8 +162,6 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 # server = app.server
 # ---
 
-
-
 row_1 = dbc.Row(
     [
         dbc.Col([
@@ -177,6 +176,7 @@ row_1 = dbc.Row(
     ],
     className="mb-4",
 )
+
 
 row_2 = dbc.Row(
     [
@@ -211,8 +211,7 @@ row_3 = dbc.Row(
 
 app.layout = dbc.Container([
     html.Div([row_1, row_2, row_3]),
-
-    #dcc.Interval(id='update', n_intervals=0, interval=1000*300)
+    dcc.Interval(id='update', n_intervals=0, interval=1000*300)
 ])
 
 
