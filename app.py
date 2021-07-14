@@ -64,13 +64,18 @@ def build_card(id,sites):
     river_card = dbc.Card([
         dbc.CardHeader(
                         id='card-'+str(id),
-                        children=site
+                        #children=site,
+                        style={'padding': '2px'},
+                        children=dbc.Button(site, color="link", style={'font-size':'0.8em'}),
+        
                     ),
         dbc.CardBody([
             dbc.Row([
                 dbc.Col([
                     html.P(['Height change (m) last 24 hrs'])
-                ]),
+                ],
+                style={'font-size':'0.75em'}
+                ),
                 dbc.Col([
                     dcc.Graph(id='indicator-graph-'+str(id), figure={},
                         config={'displayModeBar':False}
@@ -150,7 +155,7 @@ data["Time"] = pd.to_datetime(data["Time"],infer_datetime_format=True)
 data["Value"] = pd.to_numeric(data["M1"])/1000.0
 #data = data.query("SiteName == 'Makakahi at Hamua'")
 sites = list(np.sort(data.SiteName.unique()))
-identifiers = [0,1,3,4,6,11,27,25,24]
+identifiers = [0,1,3,26,4,6,11,27,25,24,31,35,39]
 
 # Attribute icons
 # <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
@@ -172,7 +177,10 @@ row_1 = dbc.Row(
         ]),
         dbc.Col([
              build_card(3,sites)
-       ]),
+        ]),
+        dbc.Col([
+             build_card(26,sites)
+        ]),
     ],
     className="mb-4",
 )
@@ -188,7 +196,7 @@ row_2 = dbc.Row(
         ]),
         dbc.Col([
              build_card(11,sites)
-       ]),
+        ]),
     ],
     className="mb-4",
 )
@@ -203,14 +211,29 @@ row_3 = dbc.Row(
         ]),
         dbc.Col([
              build_card(24,sites)
-       ]),
+        ]),
+    ],
+    className="mb-4",
+)
+
+row_4 = dbc.Row(
+    [
+        dbc.Col([
+            build_card(31,sites)            
+        ]),
+        dbc.Col([
+            build_card(35,sites)
+        ]),
+        dbc.Col([
+            build_card(39,sites)
+        ]),
     ],
     className="mb-4",
 )
 
 
 app.layout = dbc.Container([
-    html.Div([row_1, row_2, row_3]),
+    html.Div([row_1, row_2, row_3, row_4]),
     dcc.Interval(id='update', n_intervals=0, interval=1000*300)
 ])
 
@@ -220,12 +243,16 @@ app.layout = dbc.Container([
     Output('indicator-graph-0','figure'),
     Output('indicator-graph-1','figure'),
     Output('indicator-graph-3','figure'),
+    Output('indicator-graph-26','figure'),
     Output('indicator-graph-4','figure'),
     Output('indicator-graph-6','figure'),
     Output('indicator-graph-11','figure'),
     Output('indicator-graph-27','figure'),
     Output('indicator-graph-25','figure'),
     Output('indicator-graph-24','figure'),
+    Output('indicator-graph-31','figure'),
+    Output('indicator-graph-35','figure'),
+    Output('indicator-graph-39','figure'),
     ],
     Input('update', 'n_intervals')
 )
@@ -237,17 +264,21 @@ def update_graph(timer):
     output_1 = build_card_indicator(identifiers[0], sites, data)
     output_2 = build_card_indicator(identifiers[1], sites, data)
     output_3 = build_card_indicator(identifiers[2], sites, data)
-
     output_4 = build_card_indicator(identifiers[3], sites, data)
+
     output_5 = build_card_indicator(identifiers[4], sites, data)
     output_6 = build_card_indicator(identifiers[5], sites, data)
-
     output_7 = build_card_indicator(identifiers[6], sites, data)
+
     output_8 = build_card_indicator(identifiers[7], sites, data)
     output_9 = build_card_indicator(identifiers[8], sites, data)
+    output_10 = build_card_indicator(identifiers[9], sites, data)
     
- 
-    return output_1, output_2, output_3, output_4, output_5, output_6, output_7, output_8, output_9   
+    output_11 = build_card_indicator(identifiers[10], sites, data)
+    output_12 = build_card_indicator(identifiers[11], sites, data)
+    output_13 = build_card_indicator(identifiers[12], sites, data)
+    
+    return output_1, output_2, output_3, output_4, output_5, output_6, output_7, output_8, output_9, output_10, output_11, output_12, output_13   
     # these variable names can be whatever you want
 
 
@@ -256,12 +287,16 @@ def update_graph(timer):
     Output('daily-line-0','figure'),
     Output('daily-line-1','figure'),
     Output('daily-line-3','figure'),
+    Output('daily-line-26','figure'),
     Output('daily-line-4','figure'),
     Output('daily-line-6','figure'),
     Output('daily-line-11','figure'),
     Output('daily-line-27','figure'),
     Output('daily-line-25','figure'),
     Output('daily-line-24','figure'),
+    Output('daily-line-31','figure'),
+    Output('daily-line-35','figure'),
+    Output('daily-line-39','figure'),
     ],
     Input('update', 'n_intervals')
 )
@@ -272,17 +307,22 @@ def update_graph(timer):
     output_1 = build_card_graph(identifiers[0],sites, data)
     output_2 = build_card_graph(identifiers[1],sites, data)
     output_3 = build_card_graph(identifiers[2],sites, data)
-
     output_4 = build_card_graph(identifiers[3],sites, data)
+
     output_5 = build_card_graph(identifiers[4],sites, data)
     output_6 = build_card_graph(identifiers[5],sites, data)
-
     output_7 = build_card_graph(identifiers[6],sites, data)
+
     output_8 = build_card_graph(identifiers[7],sites, data)
     output_9 = build_card_graph(identifiers[8],sites, data)
+    output_10 = build_card_graph(identifiers[9],sites, data)
+    
+    output_11 = build_card_graph(identifiers[10],sites, data)
+    output_12 = build_card_graph(identifiers[11],sites, data)
+    output_13 = build_card_graph(identifiers[12],sites, data)
     
  
-    return output_1, output_2, output_3, output_4, output_5, output_6, output_7, output_8, output_9 
+    return output_1, output_2, output_3, output_4, output_5, output_6, output_7, output_8, output_9, output_10, output_11, output_12, output_13
     
 
 if __name__ == "__main__":
