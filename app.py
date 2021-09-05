@@ -3,22 +3,24 @@
 # Run this app with `python app.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 
+import datetime as dt
+import urllib.parse
+from datetime import datetime
+
 import dash
+import dash_bootstrap_components as dbc  # conda install -c conda-forge dash-bootstrap-components
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_bootstrap_components as dbc # conda install -c conda-forge dash-bootstrap-components
-from dash.dependencies import Output, Input
+import numpy as np
+import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import pandas as pd
-import numpy as np
+import pytz
+from dash.dependencies import Input, Output
+
 # import requests
 # import sys
-import web_service as ws    
-from datetime import datetime
-import datetime as dt
-import pytz
-import urllib.parse
+import web_service as ws
 
 #pytz.all_timezones
 
@@ -155,7 +157,7 @@ data["Time"] = pd.to_datetime(data["Time"],infer_datetime_format=True)
 data["Value"] = pd.to_numeric(data["M1"])/1000.0
 #data = data.query("SiteName == 'Makakahi at Hamua'")
 sites = list(np.sort(data.SiteName.unique()))
-identifiers = [0,1,3,26,4,6,11,27,25,24,31,35,39]
+identifiers = [72,69,3,26,4,6,11,27,25,24,31,35,39]
 
 # Attribute icons
 # <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
@@ -170,10 +172,10 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 row_1 = dbc.Row(
     [
         dbc.Col([
-            build_card(0,sites)            
+            build_card(72,sites)            
         ]),
         dbc.Col([
-            build_card(1,sites)
+            build_card(69,sites)
         ]),
         dbc.Col([
              build_card(3,sites)
@@ -240,8 +242,8 @@ app.layout = dbc.Container([
 
 @app.callback(
  [
-    Output('indicator-graph-0','figure'),
-    Output('indicator-graph-1','figure'),
+    Output('indicator-graph-72','figure'),
+    Output('indicator-graph-69','figure'),
     Output('indicator-graph-3','figure'),
     Output('indicator-graph-26','figure'),
     Output('indicator-graph-4','figure'),
@@ -284,8 +286,8 @@ def update_graph(timer):
 
 @app.callback(
     [
-    Output('daily-line-0','figure'),
-    Output('daily-line-1','figure'),
+    Output('daily-line-72','figure'),
+    Output('daily-line-69','figure'),
     Output('daily-line-3','figure'),
     Output('daily-line-26','figure'),
     Output('daily-line-4','figure'),
