@@ -90,7 +90,7 @@ def build_card(id,sites):
                 ])
             ])
         ],
-        #style = {"width":"24rem"},
+         #style = {"width":"24rem"},
         className = "mt-3")
     ])
     return river_card

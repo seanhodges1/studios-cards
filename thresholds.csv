@@ -1,0 +1,309 @@
+Source,SiteName,NumericLevel,TripLevelID,AlertType,Measurement,Limit
+Hilltop,Makakahi at Hamua,2.0,200,RIVER HEIGHTS,Stage [Water Level],200
+Hilltop,Makakahi at Hamua,2.5,250,RIVER HEIGHTS,Stage [Water Level],250
+Hilltop,Makakahi at Hamua,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Makakahi at Hamua,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Makakahi at Hamua,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Makino at Boness Road,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Makino at Boness Road,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Makino at Reids Line,1.5,150,RIVER HEIGHTS,Stage [Water Level],150
+Hilltop,Makino at Reids Line,1.7,170,RIVER HEIGHTS,Stage [Water Level],170
+Hilltop,Makino at Reids Line,1.9,190,RIVER HEIGHTS,Stage [Water Level],190
+Hilltop,Makino at Reids Line,2.1,210,RIVER HEIGHTS,Stage [Water Level],210
+Hilltop,Manawatu at Hopelands,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Manawatu at Hopelands,5.5,550,RIVER HEIGHTS,Stage [Water Level],550
+Hilltop,Manawatu at Moutoa,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Manawatu at Moutoa,7.5,750,RIVER HEIGHTS,Stage [Water Level],750
+Hilltop,Manawatu at Moutoa,8.4,840,RIVER HEIGHTS,Stage [Water Level],840
+Hilltop,Manawatu at Teachers College,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Manawatu at Teachers College,3.5,350,RIVER HEIGHTS,Stage [Water Level],350
+Hilltop,Manawatu at Teachers College,3.8,380,RIVER HEIGHTS,Stage [Water Level],380
+Hilltop,Manawatu at Teachers College,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Manawatu at Teachers College,4.1,410,RIVER HEIGHTS,Stage [Water Level],410
+Hilltop,Manawatu at Teachers College,4.2,420,RIVER HEIGHTS,Stage [Water Level],420
+Hilltop,Manawatu at Teachers College,4.8,480,RIVER HEIGHTS,Stage [Water Level],480
+Hilltop,Manawatu at Teachers College,4.9,490,RIVER HEIGHTS,Stage [Water Level],490
+Hilltop,Manawatu at Teachers College,5.5,550,RIVER HEIGHTS,Stage [Water Level],550
+Hilltop,Manawatu at Teachers College,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Manawatu at Teachers College,6.5,650,RIVER HEIGHTS,Stage [Water Level],650
+Hilltop,Manawatu at Teachers College,7.55,755,RIVER HEIGHTS,Stage [Water Level],755
+Hilltop,Manawatu at Teachers College,8.55,855,RIVER HEIGHTS,Stage [Water Level],855
+Hilltop,Manawatu at Upper Gorge,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Manawatu at Upper Gorge,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Manawatu at Upper Gorge,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Manawatu at Upper Gorge,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Manawatu at Upper Gorge,8.0,800,RIVER HEIGHTS,Stage [Water Level],800
+Hilltop,Manawatu at Upper Gorge,9.0,900,RIVER HEIGHTS,Stage [Water Level],900
+Hilltop,Manawatu at Upper Gorge,10.0,1000,RIVER HEIGHTS,Stage [Water Level],1000
+Hilltop,Manawatu at Upper Gorge,11.0,1100,RIVER HEIGHTS,Stage [Water Level],1100
+Hilltop,Manawatu at Upper Gorge,12.0,1200,RIVER HEIGHTS,Stage [Water Level],1200
+Hilltop,Manawatu at Weber Road,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Manawatu at Weber Road,5.2,520,RIVER HEIGHTS,Stage [Water Level],520
+Hilltop,Manawatu at Weber Road,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Manawatu at Weber Road,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Mangahao at Ballance,2.4,240,RIVER HEIGHTS,Stage [Water Level],240
+Hilltop,Mangahao at Ballance,2.5,250,RIVER HEIGHTS,Stage [Water Level],250
+Hilltop,Mangahao at Kakariki,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Mangahao at Kakariki,2.4,240,RIVER HEIGHTS,Stage [Water Level],240
+Hilltop,Mangahao at Kakariki,2.6,260,RIVER HEIGHTS,Stage [Water Level],260
+Hilltop,Mangaone at Milson Line,1.9,190,RIVER HEIGHTS,Stage [Water Level],190
+Hilltop,Mangaone at Milson Line,3.25,325,RIVER HEIGHTS,Stage [Water Level],325
+Hilltop,Mangaone at Milson Line,3.5,350,RIVER HEIGHTS,Stage [Water Level],350
+Hilltop,Mangaone at Milson Line,3.75,375,RIVER HEIGHTS,Stage [Water Level],375
+Hilltop,Mangaone at Milson Line,4.2,420,RIVER HEIGHTS,Stage [Water Level],420
+Hilltop,Mangatainoka at Larsons Road,2.0,200,RIVER HEIGHTS,Stage [Water Level],200
+Hilltop,Mangatainoka at Larsons Road,2.3,230,RIVER HEIGHTS,Stage [Water Level],230
+Hilltop,Mangatainoka at Larsons Road,2.4,240,RIVER HEIGHTS,Stage [Water Level],240
+Hilltop,Mangatainoka at Larsons Road,2.5,250,RIVER HEIGHTS,Stage [Water Level],250
+Hilltop,Mangatainoka at Larsons Road,2.8,280,RIVER HEIGHTS,Stage [Water Level],280
+Hilltop,Mangatainoka at Larsons Road,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Mangatainoka at Pahiatua Town Bridge,1.9,190,RIVER HEIGHTS,Stage [Water Level],190
+Hilltop,Mangatainoka at Pahiatua Town Bridge,2.35,235,RIVER HEIGHTS,Stage [Water Level],235
+Hilltop,Mangatainoka at Pahiatua Town Bridge,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Mangatainoka at Pahiatua Town Bridge,3.6,360,RIVER HEIGHTS,Stage [Water Level],360
+Hilltop,Matarawa at City Branch,1.5,150,RIVER HEIGHTS,Stage [Water Level],150
+Hilltop,Matarawa at City Branch,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Matarawa at City Branch,1.9,190,RIVER HEIGHTS,Stage [Water Level],190
+Hilltop,Ohau at Rongomatane,1.2,120,RIVER HEIGHTS,Stage [Water Level],120
+Hilltop,Ohau at Rongomatane,1.5,150,RIVER HEIGHTS,Stage [Water Level],150
+Hilltop,Ohau at Rongomatane,1.6,160,RIVER HEIGHTS,Stage [Water Level],160
+Hilltop,Ohau at Rongomatane,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Ohau at Rongomatane,2.0,200,RIVER HEIGHTS,Stage [Water Level],200
+Hilltop,Ohau at Rongomatane,2.2,220,RIVER HEIGHTS,Stage [Water Level],220
+Hilltop,Ohau at Rongomatane,2.5,250,RIVER HEIGHTS,Stage [Water Level],250
+Hilltop,Ohau at Rongomatane,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Ohura at Tokorima,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Oroua at Almadale Slackline,2.3,230,RIVER HEIGHTS,Stage [Water Level],230
+Hilltop,Oroua at Almadale Slackline,2.7,270,RIVER HEIGHTS,Stage [Water Level],270
+Hilltop,Oroua at Almadale Slackline,2.9,290,RIVER HEIGHTS,Stage [Water Level],290
+Hilltop,Oroua at Almadale Slackline,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Oroua at Almadale Slackline,3.2,320,RIVER HEIGHTS,Stage [Water Level],320
+Hilltop,Oroua at Almadale Slackline,3.5,350,RIVER HEIGHTS,Stage [Water Level],350
+Hilltop,Oroua at Almadale Slackline,4.2,420,RIVER HEIGHTS,Stage [Water Level],420
+Hilltop,Oroua at Kopane Bridge,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Oroua at Kopane Bridge,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Oroua at Kopane Bridge,5.2,520,RIVER HEIGHTS,Stage [Water Level],520
+Hilltop,Oroua at Kopane Bridge,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Oroua at Kopane Bridge,6.55,655,RIVER HEIGHTS,Stage [Water Level],655
+Hilltop,Oroua at Kopane Bridge,6.95,695,RIVER HEIGHTS,Stage [Water Level],695
+Hilltop,Pohangina at Mais Reach,2.6,260,RIVER HEIGHTS,Stage [Water Level],260
+Hilltop,Pohangina at Mais Reach,2.9,290,RIVER HEIGHTS,Stage [Water Level],290
+Hilltop,Pohangina at Mais Reach,3.5,350,RIVER HEIGHTS,Stage [Water Level],350
+Hilltop,Pohangina at Piripiri,1.0,100,RIVER HEIGHTS,Stage [Water Level],100
+Hilltop,Pohangina at Piripiri,1.5,150,RIVER HEIGHTS,Stage [Water Level],150
+Hilltop,Pohangina at Piripiri,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Pohangina at Piripiri,2.0,200,RIVER HEIGHTS,Stage [Water Level],200
+Hilltop,Pohangina at Piripiri,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Rangitikei at Mangaweka,3.6,360,RIVER HEIGHTS,Stage [Water Level],360
+Hilltop,Rangitikei at Mangaweka,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Rangitikei at Mangaweka,4.2,420,RIVER HEIGHTS,Stage [Water Level],420
+Hilltop,Rangitikei at Mangaweka,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Rangitikei at Mangaweka,4.8,480,RIVER HEIGHTS,Stage [Water Level],480
+Hilltop,Rangitikei at Mangaweka,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Rangitikei at Mangaweka,5.5,550,RIVER HEIGHTS,Stage [Water Level],550
+Hilltop,Rangitikei at Mangaweka,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Rangitikei at Mangaweka,6.5,650,RIVER HEIGHTS,Stage [Water Level],650
+Hilltop,Rangitikei at Mangaweka,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Tamaki at Water Supply Weir,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Tiraumea at Ngaturi,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Tiraumea at Ngaturi,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Tiraumea at Ngaturi,9.0,900,RIVER HEIGHTS,Stage [Water Level],900
+Hilltop,Tiraumea at Ngaturi,11.0,1100,RIVER HEIGHTS,Stage [Water Level],1100
+Hilltop,Turakina at ONeills Bridge,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Turakina at ONeills Bridge,5.5,550,RIVER HEIGHTS,Stage [Water Level],550
+Hilltop,Turakina at ONeills Bridge,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Turakina at Otairi,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Turakina at Otairi,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Whangaehu at Aranui,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Whangaehu at Aranui,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Whangaehu at Aranui,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Whangaehu at Kauangaroa,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Whangaehu at Kauangaroa,6.8,680,RIVER HEIGHTS,Stage [Water Level],680
+Hilltop,Whangaehu at Kauangaroa,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Whangaehu at Kauangaroa,7.8,780,RIVER HEIGHTS,Stage [Water Level],780
+Hilltop,Whangaehu at Kauangaroa,8.0,800,RIVER HEIGHTS,Stage [Water Level],800
+Hilltop,Whangaehu at Kauangaroa,9.0,900,RIVER HEIGHTS,Stage [Water Level],900
+Hilltop,Whangaehu at Kauangaroa,10.0,1000,RIVER HEIGHTS,Stage [Water Level],1000
+Hilltop,Whangaehu at Kauangaroa,11.0,1100,RIVER HEIGHTS,Stage [Water Level],1100
+Hilltop,Whanganui at Pipiriki,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Whanganui at Pipiriki,8.0,800,RIVER HEIGHTS,Stage [Water Level],800
+Hilltop,Whanganui at Pipiriki,10.0,1000,RIVER HEIGHTS,Stage [Water Level],1000
+Hilltop,Whanganui at Pipiriki,11.0,1100,RIVER HEIGHTS,Stage [Water Level],1100
+Hilltop,Whanganui at Pipiriki,12.0,1200,RIVER HEIGHTS,Stage [Water Level],1200
+Hilltop,Whanganui at Pipiriki,13.0,1300,RIVER HEIGHTS,Stage [Water Level],1300
+Hilltop,Mangaroa at Ohura Town Bridge,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Mangaroa at Ohura Town Bridge,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Mangaroa at Ohura Town Bridge,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Mangaroa at Ohura Town Bridge,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Ongarue at Taringamotu,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Ongarue at Taringamotu,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Ongarue at Taringamotu,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Ongarue at Taringamotu,8.0,800,RIVER HEIGHTS,Stage [Water Level],800
+Hilltop,Kiwitea at Strathspey Farm,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Kiwitea at Strathspey Farm,2.1,210,RIVER HEIGHTS,Stage [Water Level],210
+Hilltop,Mangawhero at Ore Ore,9.964,9964,RIVER HEIGHTS,Stage [Water Level],9964
+Hilltop,Mangawhero at Ore Ore,2.2,220,RIVER HEIGHTS,Stage [Water Level],220
+Hilltop,Mangawhero at Ore Ore,2.7,270,RIVER HEIGHTS,Stage [Water Level],270
+Hilltop,Mangawhero at Ore Ore,2.8,280,RIVER HEIGHTS,Stage [Water Level],280
+Hilltop,Mangawhero at Ore Ore,3.2,320,RIVER HEIGHTS,Stage [Water Level],320
+Hilltop,Mangawhero at Ore Ore,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Ohura at Nihoniho,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Ohura at Nihoniho,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Ohura at Nihoniho,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Manawatu at Opiki Floodway,9.0,900,RIVER HEIGHTS,Stage [Water Level],900
+Hilltop,Manawatu at Opiki Floodway,10.5,1050,RIVER HEIGHTS,Stage [Water Level],1050
+Hilltop,Manawatu at Opiki Floodway,10.9,1090,RIVER HEIGHTS,Stage [Water Level],1090
+Hilltop,Makakahi at Hamua,2.0,200,RIVER HEIGHTS,Stage [Water Level],200
+Hilltop,Makakahi at Hamua,2.5,250,RIVER HEIGHTS,Stage [Water Level],250
+Hilltop,Makakahi at Hamua,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Makakahi at Hamua,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Makakahi at Hamua,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Makino at Boness Road,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Makino at Boness Road,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Makino at Reids Line,1.5,150,RIVER HEIGHTS,Stage [Water Level],150
+Hilltop,Makino at Reids Line,1.7,170,RIVER HEIGHTS,Stage [Water Level],170
+Hilltop,Makino at Reids Line,1.9,190,RIVER HEIGHTS,Stage [Water Level],190
+Hilltop,Makino at Reids Line,2.1,210,RIVER HEIGHTS,Stage [Water Level],210
+Hilltop,Manawatu at Hopelands,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Manawatu at Hopelands,5.5,550,RIVER HEIGHTS,Stage [Water Level],550
+Hilltop,Manawatu at Moutoa,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Manawatu at Moutoa,7.5,750,RIVER HEIGHTS,Stage [Water Level],750
+Hilltop,Manawatu at Moutoa,8.4,840,RIVER HEIGHTS,Stage [Water Level],840
+Hilltop,Manawatu at Teachers College,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Manawatu at Teachers College,3.5,350,RIVER HEIGHTS,Stage [Water Level],350
+Hilltop,Manawatu at Teachers College,3.8,380,RIVER HEIGHTS,Stage [Water Level],380
+Hilltop,Manawatu at Teachers College,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Manawatu at Teachers College,4.1,410,RIVER HEIGHTS,Stage [Water Level],410
+Hilltop,Manawatu at Teachers College,4.2,420,RIVER HEIGHTS,Stage [Water Level],420
+Hilltop,Manawatu at Teachers College,4.8,480,RIVER HEIGHTS,Stage [Water Level],480
+Hilltop,Manawatu at Teachers College,4.9,490,RIVER HEIGHTS,Stage [Water Level],490
+Hilltop,Manawatu at Teachers College,5.5,550,RIVER HEIGHTS,Stage [Water Level],550
+Hilltop,Manawatu at Teachers College,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Manawatu at Teachers College,6.5,650,RIVER HEIGHTS,Stage [Water Level],650
+Hilltop,Manawatu at Teachers College,7.55,755,RIVER HEIGHTS,Stage [Water Level],755
+Hilltop,Manawatu at Teachers College,8.55,855,RIVER HEIGHTS,Stage [Water Level],855
+Hilltop,Manawatu at Upper Gorge,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Manawatu at Upper Gorge,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Manawatu at Upper Gorge,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Manawatu at Upper Gorge,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Manawatu at Upper Gorge,8.0,800,RIVER HEIGHTS,Stage [Water Level],800
+Hilltop,Manawatu at Upper Gorge,9.0,900,RIVER HEIGHTS,Stage [Water Level],900
+Hilltop,Manawatu at Upper Gorge,10.0,1000,RIVER HEIGHTS,Stage [Water Level],1000
+Hilltop,Manawatu at Upper Gorge,11.0,1100,RIVER HEIGHTS,Stage [Water Level],1100
+Hilltop,Manawatu at Upper Gorge,12.0,1200,RIVER HEIGHTS,Stage [Water Level],1200
+Hilltop,Manawatu at Weber Road,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Manawatu at Weber Road,5.2,520,RIVER HEIGHTS,Stage [Water Level],520
+Hilltop,Manawatu at Weber Road,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Manawatu at Weber Road,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Mangahao at Ballance,2.4,240,RIVER HEIGHTS,Stage [Water Level],240
+Hilltop,Mangahao at Ballance,2.5,250,RIVER HEIGHTS,Stage [Water Level],250
+Hilltop,Mangahao at Kakariki,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Mangahao at Kakariki,2.4,240,RIVER HEIGHTS,Stage [Water Level],240
+Hilltop,Mangahao at Kakariki,2.6,260,RIVER HEIGHTS,Stage [Water Level],260
+Hilltop,Mangaone at Milson Line,1.9,190,RIVER HEIGHTS,Stage [Water Level],190
+Hilltop,Mangaone at Milson Line,3.25,325,RIVER HEIGHTS,Stage [Water Level],325
+Hilltop,Mangaone at Milson Line,3.5,350,RIVER HEIGHTS,Stage [Water Level],350
+Hilltop,Mangaone at Milson Line,3.75,375,RIVER HEIGHTS,Stage [Water Level],375
+Hilltop,Mangaone at Milson Line,4.2,420,RIVER HEIGHTS,Stage [Water Level],420
+Hilltop,Mangatainoka at Larsons Road,2.0,200,RIVER HEIGHTS,Stage [Water Level],200
+Hilltop,Mangatainoka at Larsons Road,2.3,230,RIVER HEIGHTS,Stage [Water Level],230
+Hilltop,Mangatainoka at Larsons Road,2.4,240,RIVER HEIGHTS,Stage [Water Level],240
+Hilltop,Mangatainoka at Larsons Road,2.5,250,RIVER HEIGHTS,Stage [Water Level],250
+Hilltop,Mangatainoka at Larsons Road,2.8,280,RIVER HEIGHTS,Stage [Water Level],280
+Hilltop,Mangatainoka at Larsons Road,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Mangatainoka at Pahiatua Town Bridge,1.9,190,RIVER HEIGHTS,Stage [Water Level],190
+Hilltop,Mangatainoka at Pahiatua Town Bridge,2.35,235,RIVER HEIGHTS,Stage [Water Level],235
+Hilltop,Mangatainoka at Pahiatua Town Bridge,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Mangatainoka at Pahiatua Town Bridge,3.6,360,RIVER HEIGHTS,Stage [Water Level],360
+Hilltop,Matarawa at City Branch,1.5,150,RIVER HEIGHTS,Stage [Water Level],150
+Hilltop,Matarawa at City Branch,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Matarawa at City Branch,1.9,190,RIVER HEIGHTS,Stage [Water Level],190
+Hilltop,Ohau at Rongomatane,1.2,120,RIVER HEIGHTS,Stage [Water Level],120
+Hilltop,Ohau at Rongomatane,1.5,150,RIVER HEIGHTS,Stage [Water Level],150
+Hilltop,Ohau at Rongomatane,1.6,160,RIVER HEIGHTS,Stage [Water Level],160
+Hilltop,Ohau at Rongomatane,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Ohau at Rongomatane,2.0,200,RIVER HEIGHTS,Stage [Water Level],200
+Hilltop,Ohau at Rongomatane,2.2,220,RIVER HEIGHTS,Stage [Water Level],220
+Hilltop,Ohau at Rongomatane,2.5,250,RIVER HEIGHTS,Stage [Water Level],250
+Hilltop,Ohau at Rongomatane,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Ohura at Tokorima,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Oroua at Almadale Slackline,2.3,230,RIVER HEIGHTS,Stage [Water Level],230
+Hilltop,Oroua at Almadale Slackline,2.7,270,RIVER HEIGHTS,Stage [Water Level],270
+Hilltop,Oroua at Almadale Slackline,2.9,290,RIVER HEIGHTS,Stage [Water Level],290
+Hilltop,Oroua at Almadale Slackline,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Oroua at Almadale Slackline,3.2,320,RIVER HEIGHTS,Stage [Water Level],320
+Hilltop,Oroua at Almadale Slackline,3.5,350,RIVER HEIGHTS,Stage [Water Level],350
+Hilltop,Oroua at Almadale Slackline,4.2,420,RIVER HEIGHTS,Stage [Water Level],420
+Hilltop,Oroua at Kopane Bridge,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Oroua at Kopane Bridge,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Oroua at Kopane Bridge,5.2,520,RIVER HEIGHTS,Stage [Water Level],520
+Hilltop,Oroua at Kopane Bridge,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Oroua at Kopane Bridge,6.55,655,RIVER HEIGHTS,Stage [Water Level],655
+Hilltop,Oroua at Kopane Bridge,6.95,695,RIVER HEIGHTS,Stage [Water Level],695
+Hilltop,Pohangina at Mais Reach,2.6,260,RIVER HEIGHTS,Stage [Water Level],260
+Hilltop,Pohangina at Mais Reach,2.9,290,RIVER HEIGHTS,Stage [Water Level],290
+Hilltop,Pohangina at Mais Reach,3.5,350,RIVER HEIGHTS,Stage [Water Level],350
+Hilltop,Pohangina at Piripiri,1.0,100,RIVER HEIGHTS,Stage [Water Level],100
+Hilltop,Pohangina at Piripiri,1.5,150,RIVER HEIGHTS,Stage [Water Level],150
+Hilltop,Pohangina at Piripiri,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Pohangina at Piripiri,2.0,200,RIVER HEIGHTS,Stage [Water Level],200
+Hilltop,Pohangina at Piripiri,3.0,300,RIVER HEIGHTS,Stage [Water Level],300
+Hilltop,Rangitikei at Mangaweka,3.6,360,RIVER HEIGHTS,Stage [Water Level],360
+Hilltop,Rangitikei at Mangaweka,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Rangitikei at Mangaweka,4.2,420,RIVER HEIGHTS,Stage [Water Level],420
+Hilltop,Rangitikei at Mangaweka,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Rangitikei at Mangaweka,4.8,480,RIVER HEIGHTS,Stage [Water Level],480
+Hilltop,Rangitikei at Mangaweka,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Rangitikei at Mangaweka,5.5,550,RIVER HEIGHTS,Stage [Water Level],550
+Hilltop,Rangitikei at Mangaweka,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Rangitikei at Mangaweka,6.5,650,RIVER HEIGHTS,Stage [Water Level],650
+Hilltop,Rangitikei at Mangaweka,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Tamaki at Water Supply Weir,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Tiraumea at Ngaturi,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Tiraumea at Ngaturi,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Tiraumea at Ngaturi,9.0,900,RIVER HEIGHTS,Stage [Water Level],900
+Hilltop,Tiraumea at Ngaturi,11.0,1100,RIVER HEIGHTS,Stage [Water Level],1100
+Hilltop,Turakina at ONeills Bridge,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Turakina at ONeills Bridge,5.5,550,RIVER HEIGHTS,Stage [Water Level],550
+Hilltop,Turakina at ONeills Bridge,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Turakina at Otairi,4.0,400,RIVER HEIGHTS,Stage [Water Level],400
+Hilltop,Turakina at Otairi,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Whangaehu at Aranui,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Whangaehu at Aranui,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Whangaehu at Aranui,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Whangaehu at Kauangaroa,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Whangaehu at Kauangaroa,6.8,680,RIVER HEIGHTS,Stage [Water Level],680
+Hilltop,Whangaehu at Kauangaroa,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Whangaehu at Kauangaroa,7.8,780,RIVER HEIGHTS,Stage [Water Level],780
+Hilltop,Whangaehu at Kauangaroa,8.0,800,RIVER HEIGHTS,Stage [Water Level],800
+Hilltop,Whangaehu at Kauangaroa,9.0,900,RIVER HEIGHTS,Stage [Water Level],900
+Hilltop,Whangaehu at Kauangaroa,10.0,1000,RIVER HEIGHTS,Stage [Water Level],1000
+Hilltop,Whangaehu at Kauangaroa,11.0,1100,RIVER HEIGHTS,Stage [Water Level],1100
+Hilltop,Whanganui at Pipiriki,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Whanganui at Pipiriki,8.0,800,RIVER HEIGHTS,Stage [Water Level],800
+Hilltop,Whanganui at Pipiriki,10.0,1000,RIVER HEIGHTS,Stage [Water Level],1000
+Hilltop,Whanganui at Pipiriki,11.0,1100,RIVER HEIGHTS,Stage [Water Level],1100
+Hilltop,Whanganui at Pipiriki,12.0,1200,RIVER HEIGHTS,Stage [Water Level],1200
+Hilltop,Whanganui at Pipiriki,13.0,1300,RIVER HEIGHTS,Stage [Water Level],1300
+Hilltop,Mangaroa at Ohura Town Bridge,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Mangaroa at Ohura Town Bridge,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Mangaroa at Ohura Town Bridge,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Mangaroa at Ohura Town Bridge,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Ongarue at Taringamotu,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Ongarue at Taringamotu,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Ongarue at Taringamotu,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Ongarue at Taringamotu,8.0,800,RIVER HEIGHTS,Stage [Water Level],800
+Hilltop,Kiwitea at Strathspey Farm,1.8,180,RIVER HEIGHTS,Stage [Water Level],180
+Hilltop,Kiwitea at Strathspey Farm,2.1,210,RIVER HEIGHTS,Stage [Water Level],210
+Hilltop,Mangawhero at Ore Ore,9.964,9964,RIVER HEIGHTS,Stage [Water Level],9964
+Hilltop,Mangawhero at Ore Ore,2.2,220,RIVER HEIGHTS,Stage [Water Level],220
+Hilltop,Mangawhero at Ore Ore,2.7,270,RIVER HEIGHTS,Stage [Water Level],270
+Hilltop,Mangawhero at Ore Ore,2.8,280,RIVER HEIGHTS,Stage [Water Level],280
+Hilltop,Mangawhero at Ore Ore,3.2,320,RIVER HEIGHTS,Stage [Water Level],320
+Hilltop,Mangawhero at Ore Ore,4.5,450,RIVER HEIGHTS,Stage [Water Level],450
+Hilltop,Ohura at Nihoniho,5.0,500,RIVER HEIGHTS,Stage [Water Level],500
+Hilltop,Ohura at Nihoniho,6.0,600,RIVER HEIGHTS,Stage [Water Level],600
+Hilltop,Ohura at Nihoniho,7.0,700,RIVER HEIGHTS,Stage [Water Level],700
+Hilltop,Manawatu at Opiki Floodway,9.0,900,RIVER HEIGHTS,Stage [Water Level],900
+Hilltop,Manawatu at Opiki Floodway,10.5,1050,RIVER HEIGHTS,Stage [Water Level],1050
+Hilltop,Manawatu at Opiki Floodway,10.9,1090,RIVER HEIGHTS,Stage [Water Level],1090
