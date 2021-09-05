@@ -1,0 +1,67 @@
+SiteName,Area,FloodWarningSite,MacronNeeded,MacronName
+Forest Rd Drain at Drop Structure,Central,FALSE,FALSE,
+Kiwitea at Strathspey Farm,Central,TRUE,FALSE,
+Makino at Boness Road,Central,TRUE,FALSE,
+Makino at Rata Street,Central,FALSE,FALSE,
+Makino at Reids Line,Central,TRUE,FALSE,
+Manakau at S.H.1 Bridge,Central,FALSE,FALSE,
+Manawatu at Floodway,Central,FALSE,TRUE,Manawatū at Floodway
+Manawatu at Foxton,Central,FALSE,TRUE,Manawatū at Foxton
+Manawatu at Moutoa,Central,TRUE,TRUE,Manawatū at Moutoa
+Manawatu at Moutoa Gate Pier,Central,FALSE,TRUE,Manawatū at Moutoa Gate Pier
+Manawatu at Opiki Floodway,Central,TRUE,TRUE,Manawatū at Opiki Floodway
+Manawatu at Teachers College,Central,TRUE,TRUE,Manawatū at Teachers College
+Mangaone at Milson Line,Central,TRUE,FALSE,
+Ohau at Rongomatane,Central,TRUE,TRUE,Ōhau at Rongomatane
+Oroua at Almadale Slackline,Central,TRUE,FALSE,
+Oroua at Kopane Bridge,Central,TRUE,FALSE,
+Pohangina at Mais Reach,Central,TRUE,FALSE,
+Pohangina at Piripiri,Central,TRUE,FALSE,
+Rangitikei at McKelvies,Central,FALSE,TRUE,Rangitīkei at McKelvies
+Rangitikei at Onepuhi,Central,FALSE,TRUE,Rangitīkei at Onepuhi
+Upper Mangahao at No.1 Dam,Central,FALSE,FALSE,
+Waikawa at North Manakau Road,Central,FALSE,FALSE,
+Kumeti at Te Rehunga,Eastern,FALSE,FALSE,
+Makakahi at Hamua,Eastern,TRUE,FALSE,
+Makuri at Tuscan Hills,Eastern,FALSE,FALSE,
+Manawatu at Hopelands,Eastern,TRUE,TRUE,Manawatū at Hopelands
+Manawatu at Upper Gorge,Eastern,TRUE,TRUE,Manawatū at Upper Gorge
+Manawatu at Weber Road,Eastern,TRUE,TRUE,Manawatū at Weber Road
+Manga-atua at Hopelands Rd,Eastern,FALSE,FALSE,
+Mangahao at Ballance,Eastern,TRUE,FALSE,
+Mangahao at Kakariki,Eastern,TRUE,FALSE,
+Mangapapa at Troup Rd,Eastern,FALSE,FALSE,
+Mangatainoka at Larsons Road,Eastern,TRUE,FALSE,
+Mangatainoka at Pahiatua Town Bridge,Eastern,TRUE,FALSE,
+Mangatoro at Mangahei Road,Eastern,FALSE,FALSE,
+Oruakeretaki at S.H.2 Napier,Eastern,FALSE,FALSE,
+Owahanga at Branscombes Bridge,Eastern,FALSE,FALSE,
+Raparapawai at Jackson Rd,Eastern,FALSE,FALSE,
+Tamaki at Stephensons,Eastern,FALSE,FALSE,
+Tamaki at Water Supply Weir,Eastern,TRUE,FALSE,
+Tiraumea at Ngaturi,Eastern,TRUE,FALSE,
+Waihi at S.H.52,Eastern,FALSE,FALSE,
+Lake Koitiata,Northern,FALSE,FALSE,
+Makotuku at Raetihi,Northern,FALSE,FALSE,
+Mangaroa at Ohura Town Bridge,Northern,TRUE,FALSE,
+Mangawhero at Ore Ore,Northern,TRUE,FALSE,
+Mangawhero at Pakihi Rd Bridge,Northern,FALSE,FALSE,
+Mangawhero at Raupiu Road,Northern,FALSE,FALSE,
+Matarawa at City Branch,Northern,TRUE,FALSE,
+Matarawa Diversion at No. 3 Line,Northern,FALSE,FALSE,
+Ohura at Nihoniho,Northern,TRUE,FALSE,
+Ohura at Tokorima,Northern,FALSE,FALSE,
+Ongarue at Taringamotu,Northern,TRUE,FALSE
+Rangitikei at Pukeokahu,Northern,FALSE,TRUE,Rangitīkei at Pukeokahu
+Rangitikei at Mangaweka,Northern,TRUE,TRUE,Rangitīkei at Mangaweka
+Tokiahuru at Junction,Northern,FALSE,FALSE,
+Turakina at Oneills Bridge,Northern,TRUE,FALSE,
+Turakina at Otairi,Northern,TRUE,FALSE,
+Waiharuru at S.H.49,Northern,FALSE,FALSE,
+Whangaehu at Aranui,Northern,TRUE,FALSE,
+Whangaehu at Kauangaroa,Northern,TRUE,FALSE,
+Whangaehu at Tangiwai Flood Gauge,Northern,FALSE,FALSE,
+Whanganui at Pipiriki,Northern,TRUE,FALSE,
+Whanganui at Te Maire,Northern,FALSE,FALSE,
+Whanganui at Te Rewa,Northern,FALSE,FALSE,
+Whanganui at Town Bridge,Northern,FALSE,FALSE,
