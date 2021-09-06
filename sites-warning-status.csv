@@ -1,0 +1,229 @@
+SiteName,StageDesc,StageValue,StageTime,SymbolRotation,HRCLat,HRCLong,HRCTMEasting,HRCTMNorthing,Field,NumericLevel,TripLevelID,AlertType,Measurement,threshold,Label,Limit,WarningLevel,Source
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,2,200,RIVER HEIGHTS,Stage [Water Level],,,200,Level reached,RiverHeightsList
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,2.5,250,RIVER HEIGHTS,Stage [Water Level],,,250,Level reached,RiverHeightsList
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,3,300,RIVER HEIGHTS,Stage [Water Level],,,300,Level reached,RiverHeightsList
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,4,400,RIVER HEIGHTS,Stage [Water Level],,,400,Level reached,RiverHeightsList
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,4.5,450,RIVER HEIGHTS,Stage [Water Level],,,450,Not reached,RiverHeightsList
+Makino at Boness Road,Steady,1175,18/07/21 9:25,0,-40.257383,175.532662,1815385,5540598,RIVER LEVEL,4,400,RIVER HEIGHTS,Stage [Water Level],,,400,Not reached,RiverHeightsList
+Makino at Boness Road,Steady,1175,18/07/21 9:25,0,-40.257383,175.532662,1815385,5540598,RIVER LEVEL,3,300,RIVER HEIGHTS,Stage [Water Level],,,300,Not reached,RiverHeightsList
+Makino at Reids Line,Steady,11,18/07/21 9:20,0,-40.19594,175.580886,1819685,5547301,RIVER LEVEL,1.5,150,RIVER HEIGHTS,Stage [Water Level],,,150,Not reached,RiverHeightsList
+Makino at Reids Line,Steady,11,18/07/21 9:20,0,-40.19594,175.580886,1819685,5547301,RIVER LEVEL,1.7,170,RIVER HEIGHTS,Stage [Water Level],,,170,Not reached,RiverHeightsList
+Makino at Reids Line,Steady,11,18/07/21 9:20,0,-40.19594,175.580886,1819685,5547301,RIVER LEVEL,1.9,190,RIVER HEIGHTS,Stage [Water Level],,,190,Not reached,RiverHeightsList
+Makino at Reids Line,Steady,11,18/07/21 9:20,0,-40.19594,175.580886,1819685,5547301,RIVER LEVEL,2.1,210,RIVER HEIGHTS,Stage [Water Level],,,210,Not reached,RiverHeightsList
+Manawatu at Hopelands,Steady,617,18/07/21 9:00,0,-40.358857,175.962862,1851599,5528198,RIVER LEVEL,4.5,450,RIVER HEIGHTS,Stage [Water Level],,,450,Not reached,RiverHeightsList
+Manawatu at Hopelands,Steady,617,18/07/21 9:00,0,-40.358857,175.962862,1851599,5528198,RIVER LEVEL,5.5,550,RIVER HEIGHTS,Stage [Water Level],,,550,Not reached,RiverHeightsList
+Manawatu at Moutoa,Rising,2171,18/07/21 9:00,0,-40.491441,175.372522,1801068,5514992,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Manawatu at Moutoa,Rising,2171,18/07/21 9:00,0,-40.491441,175.372522,1801068,5514992,RIVER LEVEL,7.5,750,RIVER HEIGHTS,Stage [Water Level],,,750,Not reached,RiverHeightsList
+Manawatu at Moutoa,Rising,2171,18/07/21 9:00,0,-40.491441,175.372522,1801068,5514992,RIVER LEVEL,8.4,840,RIVER HEIGHTS,Stage [Water Level],,,840,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,3,300,RIVER HEIGHTS,Stage [Water Level],,,300,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,3.5,350,RIVER HEIGHTS,Stage [Water Level],,,350,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,3.8,380,RIVER HEIGHTS,Stage [Water Level],,,380,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,4,400,RIVER HEIGHTS,Stage [Water Level],,,400,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,4.1,410,RIVER HEIGHTS,Stage [Water Level],,,410,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,4.2,420,RIVER HEIGHTS,Stage [Water Level],,,420,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,4.8,480,RIVER HEIGHTS,Stage [Water Level],,,480,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,4.9,490,RIVER HEIGHTS,Stage [Water Level],,,490,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,5.5,550,RIVER HEIGHTS,Stage [Water Level],,,550,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,6.5,650,RIVER HEIGHTS,Stage [Water Level],,,650,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,7.55,755,RIVER HEIGHTS,Stage [Water Level],,,755,Not reached,RiverHeightsList
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,8.55,855,RIVER HEIGHTS,Stage [Water Level],,,855,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,4,400,RIVER HEIGHTS,Stage [Water Level],,,400,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,8,800,RIVER HEIGHTS,Stage [Water Level],,,800,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,9,900,RIVER HEIGHTS,Stage [Water Level],,,900,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,10,1000,RIVER HEIGHTS,Stage [Water Level],,,1000,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,11,1100,RIVER HEIGHTS,Stage [Water Level],,,1100,Not reached,RiverHeightsList
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,12,1200,RIVER HEIGHTS,Stage [Water Level],,,1200,Not reached,RiverHeightsList
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,4,400,RIVER HEIGHTS,Stage [Water Level],,,400,Not reached,RiverHeightsList
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,5.2,520,RIVER HEIGHTS,Stage [Water Level],,,520,Not reached,RiverHeightsList
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Mangahao at Ballance,Rising,1358,18/07/21 9:00,0,-40.436111,175.79173,1836793,5520094,RIVER LEVEL,2.4,240,RIVER HEIGHTS,Stage [Water Level],,,240,Not reached,RiverHeightsList
+Mangahao at Ballance,Rising,1358,18/07/21 9:00,0,-40.436111,175.79173,1836793,5520094,RIVER LEVEL,2.5,250,RIVER HEIGHTS,Stage [Water Level],,,250,Not reached,RiverHeightsList
+Mangahao at Kakariki,Falling,-256,18/07/21 9:00,180,-40.560006,175.618493,1821689,5506790,RIVER LEVEL,1.8,180,RIVER HEIGHTS,Stage [Water Level],,,180,Not reached,RiverHeightsList
+Mangahao at Kakariki,Falling,-256,18/07/21 9:00,180,-40.560006,175.618493,1821689,5506790,RIVER LEVEL,2.4,240,RIVER HEIGHTS,Stage [Water Level],,,240,Not reached,RiverHeightsList
+Mangahao at Kakariki,Falling,-256,18/07/21 9:00,180,-40.560006,175.618493,1821689,5506790,RIVER LEVEL,2.6,260,RIVER HEIGHTS,Stage [Water Level],,,260,Not reached,RiverHeightsList
+Mangaone at Milson Line,Steady,330,18/07/21 9:00,0,-40.318908,175.602069,1821088,5533597,RIVER LEVEL,1.9,190,RIVER HEIGHTS,Stage [Water Level],,,190,Not reached,RiverHeightsList
+Mangaone at Milson Line,Steady,330,18/07/21 9:00,0,-40.318908,175.602069,1821088,5533597,RIVER LEVEL,3.25,325,RIVER HEIGHTS,Stage [Water Level],,,325,Not reached,RiverHeightsList
+Mangaone at Milson Line,Steady,330,18/07/21 9:00,0,-40.318908,175.602069,1821088,5533597,RIVER LEVEL,3.5,350,RIVER HEIGHTS,Stage [Water Level],,,350,Not reached,RiverHeightsList
+Mangaone at Milson Line,Steady,330,18/07/21 9:00,0,-40.318908,175.602069,1821088,5533597,RIVER LEVEL,3.75,375,RIVER HEIGHTS,Stage [Water Level],,,375,Not reached,RiverHeightsList
+Mangaone at Milson Line,Steady,330,18/07/21 9:00,0,-40.318908,175.602069,1821088,5533597,RIVER LEVEL,4.2,420,RIVER HEIGHTS,Stage [Water Level],,,420,Not reached,RiverHeightsList
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2,200,RIVER HEIGHTS,Stage [Water Level],,,200,Not reached,RiverHeightsList
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2.3,230,RIVER HEIGHTS,Stage [Water Level],,,230,Not reached,RiverHeightsList
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2.4,240,RIVER HEIGHTS,Stage [Water Level],,,240,Not reached,RiverHeightsList
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2.5,250,RIVER HEIGHTS,Stage [Water Level],,,250,Not reached,RiverHeightsList
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2.8,280,RIVER HEIGHTS,Stage [Water Level],,,280,Not reached,RiverHeightsList
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,4,400,RIVER HEIGHTS,Stage [Water Level],,,400,Not reached,RiverHeightsList
+Mangatainoka at Pahiatua Town Bridge,Rising,2462,18/07/21 9:00,0,-40.449566,175.83121,1840095,5518494,RIVER LEVEL,1.9,190,RIVER HEIGHTS,Stage [Water Level],,,190,Level reached,RiverHeightsList
+Mangatainoka at Pahiatua Town Bridge,Rising,2462,18/07/21 9:00,0,-40.449566,175.83121,1840095,5518494,RIVER LEVEL,2.35,235,RIVER HEIGHTS,Stage [Water Level],,,235,Level reached,RiverHeightsList
+Mangatainoka at Pahiatua Town Bridge,Rising,2462,18/07/21 9:00,0,-40.449566,175.83121,1840095,5518494,RIVER LEVEL,3,300,RIVER HEIGHTS,Stage [Water Level],,,300,Not reached,RiverHeightsList
+Mangatainoka at Pahiatua Town Bridge,Rising,2462,18/07/21 9:00,0,-40.449566,175.83121,1840095,5518494,RIVER LEVEL,3.6,360,RIVER HEIGHTS,Stage [Water Level],,,360,Not reached,RiverHeightsList
+Matarawa at City Branch,Steady,874,18/07/21 9:00,0,-39.916694,175.090489,1778667,5579397,RIVER LEVEL,1.5,150,RIVER HEIGHTS,Stage [Water Level],,,150,Not reached,RiverHeightsList
+Matarawa at City Branch,Steady,874,18/07/21 9:00,0,-39.916694,175.090489,1778667,5579397,RIVER LEVEL,1.8,180,RIVER HEIGHTS,Stage [Water Level],,,180,Not reached,RiverHeightsList
+Matarawa at City Branch,Steady,874,18/07/21 9:00,0,-39.916694,175.090489,1778667,5579397,RIVER LEVEL,1.9,190,RIVER HEIGHTS,Stage [Water Level],,,190,Not reached,RiverHeightsList
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,1.2,120,RIVER HEIGHTS,Stage [Water Level],,,120,Not reached,RiverHeightsList
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,1.5,150,RIVER HEIGHTS,Stage [Water Level],,,150,Not reached,RiverHeightsList
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,1.6,160,RIVER HEIGHTS,Stage [Water Level],,,160,Not reached,RiverHeightsList
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,1.8,180,RIVER HEIGHTS,Stage [Water Level],,,180,Not reached,RiverHeightsList
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,2,200,RIVER HEIGHTS,Stage [Water Level],,,200,Not reached,RiverHeightsList
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,2.2,220,RIVER HEIGHTS,Stage [Water Level],,,220,Not reached,RiverHeightsList
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,2.5,250,RIVER HEIGHTS,Stage [Water Level],,,250,Not reached,RiverHeightsList
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,3,300,RIVER HEIGHTS,Stage [Water Level],,,300,Not reached,RiverHeightsList
+Ohura at Tokorima,Rising,8703,18/07/21 9:00,0,-38.917504,175.032384,1776200,5690415,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Level reached,RiverHeightsList
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,2.3,230,RIVER HEIGHTS,Stage [Water Level],,,230,Not reached,RiverHeightsList
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,2.7,270,RIVER HEIGHTS,Stage [Water Level],,,270,Not reached,RiverHeightsList
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,2.9,290,RIVER HEIGHTS,Stage [Water Level],,,290,Not reached,RiverHeightsList
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,3,300,RIVER HEIGHTS,Stage [Water Level],,,300,Not reached,RiverHeightsList
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,3.2,320,RIVER HEIGHTS,Stage [Water Level],,,320,Not reached,RiverHeightsList
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,3.5,350,RIVER HEIGHTS,Stage [Water Level],,,350,Not reached,RiverHeightsList
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,4.2,420,RIVER HEIGHTS,Stage [Water Level],,,420,Not reached,RiverHeightsList
+Oroua at Kopane Bridge,Steady,3563,18/07/21 9:00,0,-40.314151,175.491242,1811685,5534396,RIVER LEVEL,4.5,450,RIVER HEIGHTS,Stage [Water Level],,,450,Not reached,RiverHeightsList
+Oroua at Kopane Bridge,Steady,3563,18/07/21 9:00,0,-40.314151,175.491242,1811685,5534396,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Not reached,RiverHeightsList
+Oroua at Kopane Bridge,Steady,3563,18/07/21 9:00,0,-40.314151,175.491242,1811685,5534396,RIVER LEVEL,5.2,520,RIVER HEIGHTS,Stage [Water Level],,,520,Not reached,RiverHeightsList
+Oroua at Kopane Bridge,Steady,3563,18/07/21 9:00,0,-40.314151,175.491242,1811685,5534396,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Oroua at Kopane Bridge,Steady,3563,18/07/21 9:00,0,-40.314151,175.491242,1811685,5534396,RIVER LEVEL,6.55,655,RIVER HEIGHTS,Stage [Water Level],,,655,Not reached,RiverHeightsList
+Oroua at Kopane Bridge,Steady,3563,18/07/21 9:00,0,-40.314151,175.491242,1811685,5534396,RIVER LEVEL,6.95,695,RIVER HEIGHTS,Stage [Water Level],,,695,Not reached,RiverHeightsList
+Pohangina at Mais Reach,Steady,173,18/07/21 9:00,0,-40.22457,175.782998,1836792,5543602,RIVER LEVEL,2.6,260,RIVER HEIGHTS,Stage [Water Level],,,260,Not reached,RiverHeightsList
+Pohangina at Mais Reach,Steady,173,18/07/21 9:00,0,-40.22457,175.782998,1836792,5543602,RIVER LEVEL,2.9,290,RIVER HEIGHTS,Stage [Water Level],,,290,Not reached,RiverHeightsList
+Pohangina at Mais Reach,Steady,173,18/07/21 9:00,0,-40.22457,175.782998,1836792,5543602,RIVER LEVEL,3.5,350,RIVER HEIGHTS,Stage [Water Level],,,350,Not reached,RiverHeightsList
+Pohangina at Piripiri,Steady,-279,18/07/21 9:05,0,-40.052151,175.940097,1850794,5562312,RIVER LEVEL,1,100,RIVER HEIGHTS,Stage [Water Level],,,100,Not reached,RiverHeightsList
+Pohangina at Piripiri,Steady,-279,18/07/21 9:05,0,-40.052151,175.940097,1850794,5562312,RIVER LEVEL,1.5,150,RIVER HEIGHTS,Stage [Water Level],,,150,Not reached,RiverHeightsList
+Pohangina at Piripiri,Steady,-279,18/07/21 9:05,0,-40.052151,175.940097,1850794,5562312,RIVER LEVEL,1.8,180,RIVER HEIGHTS,Stage [Water Level],,,180,Not reached,RiverHeightsList
+Pohangina at Piripiri,Steady,-279,18/07/21 9:05,0,-40.052151,175.940097,1850794,5562312,RIVER LEVEL,2,200,RIVER HEIGHTS,Stage [Water Level],,,200,Not reached,RiverHeightsList
+Pohangina at Piripiri,Steady,-279,18/07/21 9:05,0,-40.052151,175.940097,1850794,5562312,RIVER LEVEL,3,300,RIVER HEIGHTS,Stage [Water Level],,,300,Not reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,3.6,360,RIVER HEIGHTS,Stage [Water Level],,,360,Level reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,4,400,RIVER HEIGHTS,Stage [Water Level],,,400,Level reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,4.2,420,RIVER HEIGHTS,Stage [Water Level],,,420,Level reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,4.5,450,RIVER HEIGHTS,Stage [Water Level],,,450,Not reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,4.8,480,RIVER HEIGHTS,Stage [Water Level],,,480,Not reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Not reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,5.5,550,RIVER HEIGHTS,Stage [Water Level],,,550,Not reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,6.5,650,RIVER HEIGHTS,Stage [Water Level],,,650,Not reached,RiverHeightsList
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Tamaki at Water Supply Weir,Steady,1280,18/07/21 9:20,0,-40.165184,176.063633,1860901,5549408,RIVER LEVEL,1.8,180,RIVER HEIGHTS,Stage [Water Level],,,180,Not reached,RiverHeightsList
+Tiraumea at Ngaturi,Rising,3773,18/07/21 9:20,0,-40.467106,175.922789,1847797,5516293,RIVER LEVEL,4.5,450,RIVER HEIGHTS,Stage [Water Level],,,450,Not reached,RiverHeightsList
+Tiraumea at Ngaturi,Rising,3773,18/07/21 9:20,0,-40.467106,175.922789,1847797,5516293,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Tiraumea at Ngaturi,Rising,3773,18/07/21 9:20,0,-40.467106,175.922789,1847797,5516293,RIVER LEVEL,9,900,RIVER HEIGHTS,Stage [Water Level],,,900,Not reached,RiverHeightsList
+Tiraumea at Ngaturi,Rising,3773,18/07/21 9:20,0,-40.467106,175.922789,1847797,5516293,RIVER LEVEL,11,1100,RIVER HEIGHTS,Stage [Water Level],,,1100,Not reached,RiverHeightsList
+Turakina at ONeills Bridge,Steady,2230,18/07/21 9:00,0,-40.025721,175.233331,1790573,5566999,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Not reached,RiverHeightsList
+Turakina at ONeills Bridge,Steady,2230,18/07/21 9:00,0,-40.025721,175.233331,1790573,5566999,RIVER LEVEL,5.5,550,RIVER HEIGHTS,Stage [Water Level],,,550,Not reached,RiverHeightsList
+Turakina at ONeills Bridge,Steady,2230,18/07/21 9:00,0,-40.025721,175.233331,1790573,5566999,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Turakina at Otairi,Steady,1159,18/07/21 9:00,0,-39.854483,175.496604,1813573,5585411,RIVER LEVEL,4,400,RIVER HEIGHTS,Stage [Water Level],,,400,Not reached,RiverHeightsList
+Turakina at Otairi,Steady,1159,18/07/21 9:00,0,-39.854483,175.496604,1813573,5585411,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Not reached,RiverHeightsList
+Whangaehu at Aranui,Steady,-4123,18/07/21 9:00,0,-39.715543,175.420336,1807465,5601013,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Not reached,RiverHeightsList
+Whangaehu at Aranui,Steady,-4123,18/07/21 9:00,0,-39.715543,175.420336,1807465,5601013,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Whangaehu at Aranui,Steady,-4123,18/07/21 9:00,0,-39.715543,175.420336,1807465,5601013,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,6.8,680,RIVER HEIGHTS,Stage [Water Level],,,680,Not reached,RiverHeightsList
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,7.8,780,RIVER HEIGHTS,Stage [Water Level],,,780,Not reached,RiverHeightsList
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,8,800,RIVER HEIGHTS,Stage [Water Level],,,800,Not reached,RiverHeightsList
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,9,900,RIVER HEIGHTS,Stage [Water Level],,,900,Not reached,RiverHeightsList
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,10,1000,RIVER HEIGHTS,Stage [Water Level],,,1000,Not reached,RiverHeightsList
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,11,1100,RIVER HEIGHTS,Stage [Water Level],,,1100,Not reached,RiverHeightsList
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Level reached,RiverHeightsList
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,8,800,RIVER HEIGHTS,Stage [Water Level],,,800,Not reached,RiverHeightsList
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,10,1000,RIVER HEIGHTS,Stage [Water Level],,,1000,Not reached,RiverHeightsList
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,11,1100,RIVER HEIGHTS,Stage [Water Level],,,1100,Not reached,RiverHeightsList
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,12,1200,RIVER HEIGHTS,Stage [Water Level],,,1200,Not reached,RiverHeightsList
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,13,1300,RIVER HEIGHTS,Stage [Water Level],,,1300,Not reached,RiverHeightsList
+Mangaroa at Ohura Town Bridge,Falling,3480,18/07/21 9:00,180,-38.840006,174.981691,1771991,5699113,RIVER LEVEL,4.5,450,RIVER HEIGHTS,Stage [Water Level],,,450,Not reached,RiverHeightsList
+Mangaroa at Ohura Town Bridge,Falling,3480,18/07/21 9:00,180,-38.840006,174.981691,1771991,5699113,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Not reached,RiverHeightsList
+Mangaroa at Ohura Town Bridge,Falling,3480,18/07/21 9:00,180,-38.840006,174.981691,1771991,5699113,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Mangaroa at Ohura Town Bridge,Falling,3480,18/07/21 9:00,180,-38.840006,174.981691,1771991,5699113,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Ongarue at Taringamotu,Rising,3305,18/07/21 2:00,0,-38.862224,175.238236,1794199,5696132,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Not reached,RiverHeightsList
+Ongarue at Taringamotu,Rising,3305,18/07/21 2:00,0,-38.862224,175.238236,1794199,5696132,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Not reached,RiverHeightsList
+Ongarue at Taringamotu,Rising,3305,18/07/21 2:00,0,-38.862224,175.238236,1794199,5696132,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Ongarue at Taringamotu,Rising,3305,18/07/21 2:00,0,-38.862224,175.238236,1794199,5696132,RIVER LEVEL,8,800,RIVER HEIGHTS,Stage [Water Level],,,800,Not reached,RiverHeightsList
+Kiwitea at Strathspey Farm,Steady,977,18/07/21 9:00,0,-40.157574,175.639927,1824838,5551412,RIVER LEVEL,1.8,180,RIVER HEIGHTS,Stage [Water Level],,,180,Not reached,RiverHeightsList
+Kiwitea at Strathspey Farm,Steady,977,18/07/21 9:00,0,-40.157574,175.639927,1824838,5551412,RIVER LEVEL,2.1,210,RIVER HEIGHTS,Stage [Water Level],,,210,Not reached,RiverHeightsList
+Mangawhero at Ore Ore,Rising,2227,18/07/21 9:00,0,-39.568267,175.263748,1794454,5617712,RIVER LEVEL,9.964,9964,RIVER HEIGHTS,Stage [Water Level],,,9964,Not reached,RiverHeightsList
+Mangawhero at Ore Ore,Rising,2227,18/07/21 9:00,0,-39.568267,175.263748,1794454,5617712,RIVER LEVEL,2.2,220,RIVER HEIGHTS,Stage [Water Level],,,220,Level reached,RiverHeightsList
+Mangawhero at Ore Ore,Rising,2227,18/07/21 9:00,0,-39.568267,175.263748,1794454,5617712,RIVER LEVEL,2.7,270,RIVER HEIGHTS,Stage [Water Level],,,270,Not reached,RiverHeightsList
+Mangawhero at Ore Ore,Rising,2227,18/07/21 9:00,0,-39.568267,175.263748,1794454,5617712,RIVER LEVEL,2.8,280,RIVER HEIGHTS,Stage [Water Level],,,280,Not reached,RiverHeightsList
+Mangawhero at Ore Ore,Rising,2227,18/07/21 9:00,0,-39.568267,175.263748,1794454,5617712,RIVER LEVEL,3.2,320,RIVER HEIGHTS,Stage [Water Level],,,320,Not reached,RiverHeightsList
+Mangawhero at Ore Ore,Rising,2227,18/07/21 9:00,0,-39.568267,175.263748,1794454,5617712,RIVER LEVEL,4.5,450,RIVER HEIGHTS,Stage [Water Level],,,450,Not reached,RiverHeightsList
+Ohura at Nihoniho,Steady,6617,18/07/21 9:05,0,-38.785835,175.043836,1777520,5705006,RIVER LEVEL,5,500,RIVER HEIGHTS,Stage [Water Level],,,500,Level reached,RiverHeightsList
+Ohura at Nihoniho,Steady,6617,18/07/21 9:05,0,-38.785835,175.043836,1777520,5705006,RIVER LEVEL,6,600,RIVER HEIGHTS,Stage [Water Level],,,600,Level reached,RiverHeightsList
+Ohura at Nihoniho,Steady,6617,18/07/21 9:05,0,-38.785835,175.043836,1777520,5705006,RIVER LEVEL,7,700,RIVER HEIGHTS,Stage [Water Level],,,700,Not reached,RiverHeightsList
+Manawatu at Opiki Floodway,Steady,8782,18/07/21 9:00,0,-40.43168,175.4774,,,RIVER LEVEL,9,900,RIVER HEIGHTS,Stage [Water Level],,,900,Not reached,RiverHeightsList
+Manawatu at Opiki Floodway,Steady,8782,18/07/21 9:00,0,-40.43168,175.4774,,,RIVER LEVEL,10.5,1050,RIVER HEIGHTS,Stage [Water Level],,,1050,Not reached,RiverHeightsList
+Manawatu at Opiki Floodway,Steady,8782,18/07/21 9:00,0,-40.43168,175.4774,,,RIVER LEVEL,10.9,1090,RIVER HEIGHTS,Stage [Water Level],,,1090,Not reached,RiverHeightsList
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,2,2000,RIVER HEIGHTS,Stage [Water Level],T1,2m Flood Warning,2000,Level reached,Hilltop
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,2.5,2500,RIVER HEIGHTS,Stage [Water Level],T2,2.5m Flood Warning,2500,Level reached,Hilltop
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,3,3000,RIVER HEIGHTS,Stage [Water Level],T3,3m Flood Warning,3000,Level reached,Hilltop
+Makakahi at Hamua,Steady,4114,18/07/21 9:10,0,-40.565174,175.745106,1832392,5505890,RIVER LEVEL,4,4000,RIVER HEIGHTS,Stage [Water Level],T4,4m Flood Warning,4000,Level reached,Hilltop
+Makino at Reids Line,Steady,11,18/07/21 9:20,0,-40.19594,175.580886,1819685,5547301,RIVER LEVEL,1.5,1500,RIVER HEIGHTS,Stage [Water Level],T1,Early Flood Warning (1500mm),1500,Not reached,Hilltop
+Makino at Reids Line,Steady,11,18/07/21 9:20,0,-40.19594,175.580886,1819685,5547301,RIVER LEVEL,2.1,2100,RIVER HEIGHTS,Stage [Water Level],T2,Gate Control Level (2100mm),2100,Not reached,Hilltop
+Manawatu at Hopelands,Steady,617,18/07/21 9:00,0,-40.358857,175.962862,1851599,5528198,RIVER LEVEL,0.29,290,RIVER HEIGHTS,Stage [Water Level],T1,MHP orifice at 290,290,Level reached,Hilltop
+Manawatu at Hopelands,Steady,617,18/07/21 9:00,0,-40.358857,175.962862,1851599,5528198,RIVER LEVEL,4.5,4500,RIVER HEIGHTS,Stage [Water Level],T2,4.5m Flood Warning,4500,Not reached,Hilltop
+Manawatu at Hopelands,Steady,617,18/07/21 9:00,0,-40.358857,175.962862,1851599,5528198,RIVER LEVEL,10.6,10600,RIVER HEIGHTS,Stage [Water Level],T3,New Bridge Level,10600,Not reached,Hilltop
+Manawatu at Hopelands,Steady,617,18/07/21 9:00,0,-40.358857,175.962862,1851599,5528198,RIVER LEVEL,4.9,4900,RIVER HEIGHTS,Stage [Water Level],T4,4.9m Flood Warning,4900,Not reached,Hilltop
+Manawatu at Hopelands,Steady,617,18/07/21 9:00,0,-40.358857,175.962862,1851599,5528198,RIVER LEVEL,5.5,5500,RIVER HEIGHTS,Stage [Water Level],T5,5.5m Flood Warning,5500,Not reached,Hilltop
+Manawatu at Hopelands,Steady,617,18/07/21 9:00,0,-40.358857,175.962862,1851599,5528198,RIVER LEVEL,6,6000,RIVER HEIGHTS,Stage [Water Level],T6,6m Flood Warning,6000,Not reached,Hilltop
+Manawatu at Moutoa,Rising,2171,18/07/21 9:00,0,-40.491441,175.372522,1801068,5514992,RIVER LEVEL,8.25,8250,RIVER HEIGHTS,Stage [Water Level],T1,8.25m Flood Warning,8250,Not reached,Hilltop
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,3.5,3500,RIVER HEIGHTS,Stage [Water Level],T1,3.5m Flood Warning,3500,Not reached,Hilltop
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,3.8,3800,RIVER HEIGHTS,Stage [Water Level],T2,3.8m Flood Warning,3800,Not reached,Hilltop
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,4.2,4200,RIVER HEIGHTS,Stage [Water Level],T3,4.2m Flood Warning,4200,Not reached,Hilltop
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,4.9,4900,RIVER HEIGHTS,Stage [Water Level],T4,4.9m Flood Warning,4900,Not reached,Hilltop
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,5.5,5500,RIVER HEIGHTS,Stage [Water Level],T5,5.5m Flood Warning,5500,Not reached,Hilltop
+Manawatu at Teachers College,Falling,1516,18/07/21 9:15,180,-40.373288,175.62773,1823089,5527495,RIVER LEVEL,6,6000,RIVER HEIGHTS,Stage [Water Level],T6,6m Flood Warning,6000,Not reached,Hilltop
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,4,4000,RIVER HEIGHTS,Stage [Water Level],T1,4m Flood Warning,4000,Not reached,Hilltop
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,5,5000,RIVER HEIGHTS,Stage [Water Level],T2,5m Flood Warning,5000,Not reached,Hilltop
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,6,6000,RIVER HEIGHTS,Stage [Water Level],T3,6m Flood Warning,6000,Not reached,Hilltop
+Manawatu at Upper Gorge,Falling,2358,18/07/21 9:05,180,-40.331849,175.818031,1839394,5531598,RIVER LEVEL,10,10000,RIVER HEIGHTS,Stage [Water Level],T4,10m Flood warning,10000,Not reached,Hilltop
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,4,4000,RIVER HEIGHTS,Stage [Water Level],T1,4m Flood Warning,4000,Not reached,Hilltop
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,5.2,5200,RIVER HEIGHTS,Stage [Water Level],T2,5.2m Flood Warning,5200,Not reached,Hilltop
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,6,6000,RIVER HEIGHTS,Stage [Water Level],T3,6m Flood Warning,6000,Not reached,Hilltop
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,7,7000,RIVER HEIGHTS,Stage [Water Level],T4,7m Flood Warning,7000,Not reached,Hilltop
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,5.5,5500,RIVER HEIGHTS,Stage [Water Level],T5,5.5m Flood Warning,5500,Not reached,Hilltop
+Manawatu at Weber Road,Steady,1192,18/07/21 9:15,0,-40.239468,176.116379,1865104,5541004,RIVER LEVEL,6,6000,RIVER HEIGHTS,Stage [Water Level],T6,6m Flood Warning,6000,Not reached,Hilltop
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,1.8,1800,RIVER HEIGHTS,Stage [Water Level],T1,1.8m Flood Warning,1800,Not reached,Hilltop
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2,2000,RIVER HEIGHTS,Stage [Water Level],T2,2m flood warning level,2000,Not reached,Hilltop
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2.3,2300,RIVER HEIGHTS,Stage [Water Level],T3,2.3m Flood Warning,2300,Not reached,Hilltop
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2.5,2500,RIVER HEIGHTS,Stage [Water Level],T4,2.5m Flood Warning,2500,Not reached,Hilltop
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,2.8,2800,RIVER HEIGHTS,Stage [Water Level],T5,2.8m Flood Warning,2800,Not reached,Hilltop
+Mangatainoka at Larsons Road,Steady,1374,18/07/21 9:10,0,-40.640362,175.610986,1820789,5497888,RIVER LEVEL,4,4000,RIVER HEIGHTS,Stage [Water Level],T6,4m Flood Warning,4000,Not reached,Hilltop
+Mangatainoka at Pahiatua Town Bridge,Rising,2462,18/07/21 9:00,0,-40.449566,175.83121,1840095,5518494,RIVER LEVEL,1.9,1900,RIVER HEIGHTS,Stage [Water Level],T1,1.9m FW level,1900,Level reached,Hilltop
+Mangatainoka at Pahiatua Town Bridge,Rising,2462,18/07/21 9:00,0,-40.449566,175.83121,1840095,5518494,RIVER LEVEL,2.35,2350,RIVER HEIGHTS,Stage [Water Level],T2,2.35m FW level,2350,Level reached,Hilltop
+Mangatainoka at Pahiatua Town Bridge,Rising,2462,18/07/21 9:00,0,-40.449566,175.83121,1840095,5518494,RIVER LEVEL,3.6,3600,RIVER HEIGHTS,Stage [Water Level],T3,3.6m FW level,3600,Not reached,Hilltop
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,1.6,1600,RIVER HEIGHTS,Stage [Water Level],T1,1.6m Flood Warning,1600,Not reached,Hilltop
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,2,2000,RIVER HEIGHTS,Stage [Water Level],T2,2.0m Flood Warning,2000,Not reached,Hilltop
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,2.5,2500,RIVER HEIGHTS,Stage [Water Level],T3,2.5m Flood Warning,2500,Not reached,Hilltop
+Ohau at Rongomatane,Steady,635,18/07/21 9:00,0,-40.663439,175.332677,1797185,5495987,RIVER LEVEL,3,3000,RIVER HEIGHTS,Stage [Water Level],T4,3.0m Flood Warning,3000,Not reached,Hilltop
+Ohura at Tokorima,Rising,8703,18/07/21 9:00,0,-38.917504,175.032384,1776200,5690415,RIVER LEVEL,7,7000,RIVER HEIGHTS,Stage [Water Level],T1,7.0m Flood Warning,7000,Level reached,Hilltop
+Ohura at Tokorima,Rising,8703,18/07/21 9:00,0,-38.917504,175.032384,1776200,5690415,RIVER LEVEL,2.95,2950,RIVER HEIGHTS,Stage [Water Level],T2,Access to Turbidity Sensor,2950,Level reached,Hilltop
+Ongarue at Taringamotu,Rising,3305,18/07/21 2:00,0,-38.862224,175.238236,1794199,5696132,RIVER LEVEL,6.89,6890,RIVER HEIGHTS,Stage [Water Level],T1,Flood Warning - 2004 Flood Level,6890,Not reached,Hilltop
+Ongarue at Taringamotu,Rising,3305,18/07/21 2:00,0,-38.862224,175.238236,1794199,5696132,RIVER LEVEL,7.96,7960,RIVER HEIGHTS,Stage [Water Level],T2,Flood Warning - 2000 Flood Level,7960,Not reached,Hilltop
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,2.9,2900,RIVER HEIGHTS,Stage [Water Level],T1,2.9m Flood Warning,2900,Not reached,Hilltop
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,3,3000,RIVER HEIGHTS,Stage [Water Level],T2,3.0m Flood Warning,3000,Not reached,Hilltop
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,3.2,3200,RIVER HEIGHTS,Stage [Water Level],T3,3.2m Flood Warning,3200,Not reached,Hilltop
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,3.5,3500,RIVER HEIGHTS,Stage [Water Level],T4,3.5m Flood Warning,3500,Not reached,Hilltop
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,4.2,4200,RIVER HEIGHTS,Stage [Water Level],T5,4.2m Flood Warning,4200,Not reached,Hilltop
+Oroua at Almadale Slackline,Steady,1201,18/07/21 9:10,0,-40.173415,175.659903,1826487,5549603,RIVER LEVEL,2.7,2700,RIVER HEIGHTS,Stage [Water Level],T6,2.7m Flood Warning,2700,Not reached,Hilltop
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,4,4000,RIVER HEIGHTS,Stage [Water Level],T1,4m Flood Warning,4000,Level reached,Hilltop
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,4.5,4500,RIVER HEIGHTS,Stage [Water Level],T2,4.5m Flood Warning,4500,Not reached,Hilltop
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,5,5000,RIVER HEIGHTS,Stage [Water Level],T3,5m Flood Warning,5000,Not reached,Hilltop
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,5.5,5500,RIVER HEIGHTS,Stage [Water Level],T4,5.5m Flood Warning,5500,Not reached,Hilltop
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,6,6000,RIVER HEIGHTS,Stage [Water Level],T5,6m Flood Warning,6000,Not reached,Hilltop
+Rangitikei at Mangaweka,Falling,4376,18/07/21 9:00,180,-39.809424,175.808108,1840382,5589622,RIVER LEVEL,6.5,6500,RIVER HEIGHTS,Stage [Water Level],T6,6.5m Flood Warning,6500,Not reached,Hilltop
+Turakina at ONeills Bridge,Steady,2230,18/07/21 9:00,0,-40.025721,175.233331,1790573,5566999,RIVER LEVEL,7,7000,RIVER HEIGHTS,Stage [Water Level],T1,7.0m Flood Warning,7000,Not reached,Hilltop
+Turakina at ONeills Bridge,Steady,2230,18/07/21 9:00,0,-40.025721,175.233331,1790573,5566999,RIVER LEVEL,2.35,2350,RIVER HEIGHTS,Stage [Water Level],T2,Wading Gauging Threshold,2350,Not reached,Hilltop
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,6,6000,RIVER HEIGHTS,Stage [Water Level],T1,6.0m Flood Warning,6000,Not reached,Hilltop
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,6.8,6800,RIVER HEIGHTS,Stage [Water Level],T2,6.8m Flood Warning,6800,Not reached,Hilltop
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,7,7000,RIVER HEIGHTS,Stage [Water Level],T3,7.0m Flood Warning,7000,Not reached,Hilltop
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,7.8,7800,RIVER HEIGHTS,Stage [Water Level],T4,7.8m Flood Warning,7800,Not reached,Hilltop
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,8,8000,RIVER HEIGHTS,Stage [Water Level],T5,8.0m Flood Warning,8000,Not reached,Hilltop
+Whangaehu at Kauangaroa,Rising,4885,18/07/21 9:00,0,-39.925771,175.27568,1794471,5578003,RIVER LEVEL,13.14,13140,RIVER HEIGHTS,Stage [Water Level],T6,100 yr upper error bound,13140,Not reached,Hilltop
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,2,2000,RIVER HEIGHTS,Stage [Water Level],T1,2.0m Flood Warning,2000,Level reached,Hilltop
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,6,6000,RIVER HEIGHTS,Stage [Water Level],T2,6.0m Flood Warning,6000,Level reached,Hilltop
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,8,8000,RIVER HEIGHTS,Stage [Water Level],T3,8.0m Flood Warning,8000,Not reached,Hilltop
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,10,10000,RIVER HEIGHTS,Stage [Water Level],T4,10m Flood Warning,10000,Not reached,Hilltop
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,11,11000,RIVER HEIGHTS,Stage [Water Level],T5,11.0m Flood Warning,11000,Not reached,Hilltop
+Whanganui at Pipiriki,Steady,7265,18/07/21 9:00,0,-39.479607,175.044522,1775845,5628004,RIVER LEVEL,0.9,900,RIVER HEIGHTS,Stage [Water Level],T6,nomad out of water,900,Level reached,Hilltop
+Whanganui at Town Bridge,Falling,6474,18/07/21 9:00,180,-39.935369,175.055928,1775666,5577393,RIVER LEVEL,8,8000,RIVER HEIGHTS,Stage [Water Level],T1,8m Flood Warning,8000,Not reached,Hilltop
+Whanganui at Town Bridge,Falling,6474,18/07/21 9:00,180,-39.935369,175.055928,1775666,5577393,RIVER LEVEL,8.5,8500,RIVER HEIGHTS,Stage [Water Level],T2,8.5m Flood Warning,8500,Not reached,Hilltop

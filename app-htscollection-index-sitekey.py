@@ -11,7 +11,6 @@ import dash
 import dash_bootstrap_components as dbc  # conda install -c conda-forge dash-bootstrap-components
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_daq as daq # conda install -c conda-forge dash-daq
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -93,7 +92,7 @@ def build_card(id,sites):
                 ])
             ])
         ],
-         #style = {"width":"24rem"},
+        #style = {"width":"24rem"},
         className = "mt-3")
     ])
     return river_card
